@@ -1,0 +1,161 @@
+body{
+	text-align: center;
+	height: 100%;
+	overflow: hidden;
+	background-color: white;
+	background-repeat: no-repeat;
+}
+.container{
+
+	height: 95%;
+	overflow: auto;
+	background-color: white;
+	z-index: auto;
+	width: 80%;
+	position: relative;
+	right: -120px;
+	border-radius: 20px;
+			box-shadow: 20px 20px #888888;
+}
+button{
+	position: relative;
+	left: 42.3%;
+	cursor: pointer;
+	background-color: black;
+      color: white;
+      border: 1px solid black;
+      cursor: pointer;
+      width: 10%;
+      font-size: 15px;
+}
+button:hover{
+      opacity: 0.8;
+}
+.t1{
+	text-align: center;
+	position: relative;
+	display: block;
+	text-align: center;
+	top: -5%;
+	font-family: "Lucida Console";
+	font-size: 30px;
+}
+span {
+	border-style: none;
+
+}
+.Notesss
+{
+
+
+}
+td , th{
+	text-align: center;
+}
+th {
+	background-color: #1d3557;
+	color: white;
+	font-family: "Lucida Console";
+
+}
+td {
+	background-color: #EADEDA;
+	font-family: sans-serif;
+}
+#print-btn{
+
+}
+.bacoor {
+	 width: 55%;
+  height: 90%;
+  padding: 0 30px;
+  position: absolute;
+}
+.bacoor img {
+	width: 17%;
+  height: 20%;
+  border-radius: 600px;
+  position: relative;
+  bottom: 50px;
+  right: 200px;
+
+}
+.nav__cont {
+  position: fixed;
+  width: 13vw;
+  top: 0;
+  height: 100%;
+  z-index: 100;
+  background-color: #21466E;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+.navv {
+  list-style-type: none;
+  color: rgb(163, 38, 151);
+}
+.nav:first-child {
+  padding-top: 1.5rem;
+}
+
+.nav__items {
+  padding-bottom: 4rem;
+  font-family: 'roboto';
+	margin-left: -50px;
+	margin-top: 10px;
+}
+.nav__items a {
+  position: relative;
+  display: block;
+  top: -35px;
+  padding-left: 25px;
+  padding-right: 15px;
+  transition: all .3s ease;
+  margin-left: 25px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Console';
+  font-weight: 100;
+  font-size: 1.35em;
+}
+.nav__items a:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+background: radial-gradient(circle at 94.02% 88.03%, #54a4ff, transparent 100%);
+  opacity: 0;
+  transition: all .5s ease;
+  z-index: -10;
+}
+.nav__items:hover a:after {
+  opacity: 1;
+}
+.nav__items svg {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  left: -25px;
+  cursor: pointer;
+}
+@media screen and (min-width: 600px) {
+  .nav__items svg {
+    width: 32px;
+    height: 32px;
+    left: -15px;
+  }
+}
+.Logo
+{
+height: 30px;
+width: 30px;
+position: relative;
+right:  75px;
+top: 2px;
+}

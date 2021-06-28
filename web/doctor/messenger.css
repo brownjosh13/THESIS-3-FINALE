@@ -1,0 +1,423 @@
+body{
+  font-family: arial rounded mt;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: #e8e8e8;
+  overflow: hidden;
+}
+.topnav{
+  position: relative;
+  background-color: #fff;
+	color: #26282a;
+	height: 70px;
+  padding-left: 50px;
+}
+
+.metal{
+	position: absolute;
+	top: 5px;
+	left: 6.5%;
+	font-size: 25px;
+}
+.topnav h1{
+  position: absolute;
+  top: 0;
+  left: 47%;
+  font-family: calibri;
+  font-weight: initial;
+  font-size: 35px;
+  margin: 0.8% 0 0 0;
+  padding: 0;
+}
+.container{
+  width: 80%;
+  margin: 2% 0 0 4.5%;
+  height: 800px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+  background-color: #fff;
+  position: relative;
+  right: -200px;
+}
+.buttons{
+  position: absolute;
+  margin: 50px 660px;
+  width: 50%;
+}
+.buttons button{
+  padding: 10px;
+  width: 15%;
+  border-style: none;
+  background-color: white;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.buttons button:hover{
+  transform: scale(1.05);
+  transition: transform 0.1s;
+}
+/*--------------------------Start of Left inbox content-------------------------------*/
+.msg-inbox{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+  width: 15%;
+  height: 100%;
+  font-family: calibri;
+  background-color: #747577;
+}
+.msg-inbox h1{
+  position: absolute;
+  top: -0.7%;
+  margin-left: 3.7%;
+  font-size: 28px;
+  color: white;
+  font-weight: initial;
+}
+.msg-inbox button{
+  border: none;
+  position: relative;
+  left: 42%;
+  bottom: 5px;
+  color: white;
+  border: 1px solid silver;
+  border-radius: 10px;
+  padding: 10px 10px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.msg-inbox button:hover{
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.3);
+}
+.admin-img{
+  width: 15%;
+  margin: 3% 0 0 3%;
+  border-radius: 50%;
+}
+.msg-inbox input[type=text]{
+  width: 90%;
+  padding: 8px 20px;
+  margin: 10px 0 10% 14px;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+}
+.inbox-row{
+  margin: 0 11px 0 11px;
+  padding: 0;
+  cursor: pointer;
+}
+.inbox-row:hover {
+  background-color: #21466E;
+  border-radius: 10px;
+}
+.client-dp{
+  width: 23%;
+}
+.msg-inbox a{
+  position: relative;
+  bottom: 22px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+/*--------------------------End of left inbox content-------------------------------*/
+/*--------------------------Start of bottom textarea and send button---------------------------*/
+.textarea-sendbtn{
+  width: 85%;
+  position: relative;
+  left: 15%;
+  bottom: 10%;
+  height: 10%;
+  border-top: 0.1px #ccc solid;
+}
+.textarea-sendbtn input[type=text]{
+  width: 80%;
+  padding: 8px 20px;
+  margin: 26px 0 0 50px;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+}
+.textarea-sendbtn button{
+  border: none;
+  padding: 5px 50px;
+  background-color: #21466E;
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;x`x
+}
+.textarea-sendbtn button:hover{
+  box-shadow: 0 0 3px 4px rgba(0,0,0,.4);
+  transition: transform 0.1s;
+}
+/*--------------------------End of bottom textarea and send button---------------------------*/
+/*---------------------------Laman ng messages-----------------------------------*/
+.messages{
+  border-right:  0.1px solid #ccc;
+  position: relative;
+  bottom: 110.1%;
+  height: 89.9%;
+  width: 65%;
+  left: 15%;
+  font-family: century gothic;
+  overflow: auto;
+}
+.message-content{
+  position: relative;
+  top: 2%;
+  width: 96%;
+  left: 2%;
+  height: 96%;
+}
+.Client img{
+  width: 4%;
+}
+.Client h4{
+  position: relative;
+  bottom: 62px;
+  left: 60px;
+  background-color: #f1f1f1;
+  max-width: 29%;
+  padding: 5px 25px;
+  border-radius: 20px;
+}
+.Client{
+  height: 8%;
+  position: relative;
+
+}
+.me{
+}
+.me-h4{
+  position: relative;
+  background-color: #3578e5d6;
+  color: white;
+  max-width: 29%;
+  padding: 8px 25px;
+  border-radius: 20px;
+  left: 67%;
+}
+.Client1 img{
+  width: 4%;
+}
+.h4{
+  position: relative;
+  bottom: 62px;
+  left: 60px;
+  background-color: #f1f1f1;
+  max-width: 29%;
+  padding: 5px 25px;
+  border-radius: 20px;
+}
+.Client1{
+  position: relative;
+  height: 15%;
+}
+.h41{
+  position: relative;
+  bottom: 79px;
+  left: 60px;
+  background-color: #f1f1f1;
+  max-width: 29%;
+  padding: 5px 25px;
+  border-radius: 20px;
+}
+.me-h41{
+  position: relative;
+  background-color: #3578e5d6;
+  color: white;
+  max-width: 29%;
+  padding: 8px 25px;
+  border-radius: 20px;
+  left: 67%;
+}
+.h42{
+  position: relative;
+  bottom: 62px;
+  left: 60px;
+  background-color: #f1f1f1;
+  max-width: 29%;
+  padding: 5px 25px;
+  border-radius: 20px;
+}
+.Client2{
+  position: relative;
+  height: 23%;
+}
+.h422{
+  position: relative;
+  bottom: 77px;
+  left: 60px;
+  background-color: #f1f1f1;
+  max-width: 29%;
+  padding: 5px 25px;
+  border-radius: 20px;
+}
+.h4222{
+  position: relative;
+  bottom: 92px;
+  left: 60px;
+  background-color: #f1f1f1;
+  max-width: 18%;
+  padding: 5px 25px;
+  border-radius: 20px;
+}
+.me-h42{
+  position: relative;
+  background-color: #3578e5d6;
+  color: white;
+  max-width: 29%;
+  padding: 8px 25px;
+  border-radius: 20px;
+  left: 67%;
+}
+/*--------------------------End ng lamang ng messages-------------------------*/
+/*--------------------------lamang ng message info-------------------------*/
+.msg-info{
+  position: relative;
+  bottom: 200%;
+  height: 90%;
+  width: 20%;
+  left: 80%;
+}
+.upper-content{
+  border-bottom: 0.3px solid #ccc;
+  height: 30%;
+  text-align: center;
+}
+.client-icon{
+  width: 35%;
+  margin-top: 10px;
+}
+.client-name{
+  font-size: 20px;
+  position: relative;
+  bottom: 15px;
+}
+.active-time{
+  color: #989898;
+  position: relative;
+  bottom: 25px;
+  font-size: 13px;
+  font-weight: initial;
+  font-family: arial;
+}
+.lower-content{
+  height: 67%;
+  margin: 5%;
+  text-align: center;
+}
+.lower-content input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+.lower-content span{
+  color: #989898;
+  text-align: center;
+  font-weight: initial;
+  font-family: calibri;
+  font-size: 20px;
+}
+.reminder{
+  position: relative;
+  top: 30%;
+  color: #989898;
+}
+/*-----------------------------end ng laman ng message info----------------------*/
+.video-icon{
+  position: absolute;
+  width: 40px;
+  right: 15px;
+  top: 10px;
+  cursor: pointer;
+}
+.video-icon:hover{
+  transform: scale(1.05);
+  transition: transform 0.1s;
+}
+.nav__cont {
+  position: fixed;
+  width: 13vw;
+  top: 0;
+  height: 100%;
+  z-index: 100;
+  background-color: #6E4201;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.4);
+}
+.navv {
+  list-style-type: none;
+  color: rgb(163, 38, 151);
+}
+.nav:first-child {
+  padding-top: 1.5rem;
+}
+
+.nav__items {
+  font-family: 'roboto';
+	margin-left: -50px;
+	margin-top: 10px;
+}
+.nav__items a {
+  position: relative;
+  display: block;
+  top: -35px;
+  padding-left: 25px;
+  padding-right: 15px;
+  transition: all .3s ease;
+  margin-left: 25px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Console';
+  font-weight: 100;
+  font-size: 1.35em;
+}
+.nav__items a:after {
+	content: '';
+  width: 85%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: radial-gradient(circle at 94.02% 88.03%, #54a4ff, transparent 100%);
+  opacity: 0.3;
+  transition: all .5s ease;
+  z-index: -10;
+}
+.nav__items svg {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  left: -25px;
+  cursor: pointer;
+}
+@media screen and (min-width: 600px) {
+  .nav__items svg {
+    width: 32px;
+    height: 32px;
+    left: -15px;
+  }
+}
+.Logo
+{
+height: 30px;
+width: 30px;
+margin-left: 20px;
+position:relative;
+}

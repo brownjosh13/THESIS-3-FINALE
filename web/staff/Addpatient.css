@@ -1,0 +1,166 @@
+/* Design For Body Starts */
+body
+{
+	margin: 0;
+	background-color: #dedede;
+	text-align: center;
+
+}
+/* Design For Body Ends */
+
+/* Design For Border Starts */
+.Border
+{
+	position: absolute;
+	padding-bottom: 5px;
+	width: 50%;
+	margin-left: 500px;
+	background-color: white;
+	top: 13px;
+	border-radius: 10px;
+	box-shadow: 20px 20px #888888;
+}
+/* Design For Border Ends */
+/* Design For Header Starts */
+.Header
+{
+	-webkit-text-stroke-width: 0.5px;
+   	-webkit-text-stroke-color: white;
+   	font-family: verdana;
+   	font-weight: bolder;
+   	letter-spacing: 1px;
+}
+/* Design For Header Ends */
+
+/* Design For All Inputs, Select and Text Area Starts */
+  input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date],input[type=time], select
+{
+  width: 30%;
+  float: right;
+  display: inline-block;
+  border: solid;
+	border-radius: 5px;
+  background: #f1f1f1;
+  background-color: white;
+  color: black;
+  height: 30px;
+  position: relative;
+  right: 170px;
+}
+/* Design For All Inputs, Select and Text Area Ends */
+input[type=date]
+{
+width: 30.4%;
+}
+
+input[type=time]
+{
+width: 30.4%;
+}
+
+
+/* Designs For Label Starts */
+.TextFname, .TextCivilStatus , .TextAddress , .TextStatus , .TextNote , .TextRoomNo, .TextHeight, .TextWeight
+, .TextTemperature , .TextBPM,  .TextDate , .TextTime  , .TextID
+{
+	font-family: arial;
+	position: relative;
+	left: -50px;
+	font-weight: bold;
+	font-size: 20px;
+	-webkit-text-stroke-width: 0.5px;
+   	-webkit-text-stroke-color: #042f66;
+   	display: inline-block;
+   	width: 200px;
+   	text-align: left;
+ }
+/* Designs For Label Ends */
+/* Designs For Inputs when the mouse point them Starts */
+.fullname:hover , .civilstatus:hover , .address:hover , .status:hover , .note:hover , .roomno:hover ,
+.height:hover , .weight:hover , .temperature:hover , .bpm:hover , .date:hover , .time:hover ,
+.patientid:hover ,
+{
+	background-color: #999793;
+	color: white;
+	width: 250px;
+}
+/* Designs For Inputs when the mouse point them Starts */
+/* Designs For Inputs when you click them Starts */
+.Fname:focus , .Lname:focus , .Hotline:focus , .Uname:focus , .Pword:focus , .PwordR:focus , .ContactNo:focus , .EmailAddress:focus, .Bdate:focus, .Address:focus, .C_Name:focus
+{
+	background-color: white;
+	color: black;
+}
+/* Designs For Inputs when the click them Ends */
+
+/* Designs For Inputs when you click them Starts */
+.Fname, .Lname , .Hotline, .Uname, .Pword, .PwordR, .ContactNo, .EmailAddress, .Bdate, .Address, .C_Name
+{
+	-webkit-transition: width 5s; /* For Safari 3.1 to 6.0 */
+	transition: width 2s;
+}
+/* Designs For Inputs when the click them Ends */
+/* Designs For Buttons when the mouse point them Starts */
+.signup:hover, .back:hover
+{
+	background-color: #999793;
+	color: white;
+}
+/* Designs For Inputs when the mouse point them Ends*/
+
+/* Locations For all Inputs ans some labels Starts */
+.C_Name
+{
+	position: relative;
+
+}
+
+.Format
+{
+	position: relative;
+
+}
+.Header
+{
+	text-align: center;
+	font-weight: 600;
+	font-family: verdana;
+}
+
+/* Locations For all Inputs ans some labels Ends */
+
+/* Location of Buttons Starts*/
+.signup
+{
+	position: relative;
+	left: 12px;
+}
+.back
+{
+	position: relative;
+	left: 12px;
+}
+.signup, .back
+{
+	width: 30%;
+	padding: 10px;
+	color: white;
+	background-color: #001152;
+	border-style: groove;
+    font-weight: bold;
+    border-radius: 17px;
+    -webkit-text-stroke-width: 0px;
+   	-webkit-text-stroke-color: white;
+   	cursor: pointer;
+   	font-family: verdana;
+   	font-size: 20px;
+}
+
+
+.Logo
+{
+height: 30px;
+width: 30px;
+position: relative;
+
+}
